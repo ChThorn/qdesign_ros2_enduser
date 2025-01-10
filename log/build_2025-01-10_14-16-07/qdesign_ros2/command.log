@@ -1,0 +1,2 @@
+Invoking command in '/home/thornch/qdesign_ros2/build/qdesign_ros2': /usr/bin/cmake /home/thornch/qdesign_ros2 -DCMAKE_INSTALL_PREFIX=/home/thornch/qdesign_ros2/install/qdesign_ros2
+Invoked command in '/home/thornch/qdesign_ros2/build/qdesign_ros2' returned '1': /usr/bin/cmake /home/thornch/qdesign_ros2 -DCMAKE_INSTALL_PREFIX=/home/thornch/qdesign_ros2/install/qdesign_ros2

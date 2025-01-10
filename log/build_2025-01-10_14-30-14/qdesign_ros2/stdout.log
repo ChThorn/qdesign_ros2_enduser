@@ -1,0 +1,11 @@
+[  0%] Built target realsense_camera_node_autogen_timestamp_deps
+[  0%] Built target qt_realsense_node_autogen_timestamp_deps
+[  9%] [34m[1mAutomatic MOC and UIC for target realsense_camera_node[0m
+[  9%] Built target realsense_camera_node_autogen
+[ 18%] Built target qt_realsense_node_autogen
+[ 27%] [32mBuilding CXX object CMakeFiles/realsense_camera_node.dir/launch/launch_camera.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/qt_realsense_node.dir/qt_realsense_node_autogen/mocs_compilation.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/qt_realsense_node.dir/src/main.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/qt_realsense_node.dir/src/DialogController.cpp.o[0m
+[ 63%] [32m[1mLinking CXX executable qt_realsense_node[0m
+[ 72%] Built target qt_realsense_node

@@ -1,0 +1,14 @@
+[  0%] Built target qt_realsense_node_autogen_timestamp_deps
+[  0%] Built target realsense_camera_node_autogen_timestamp_deps
+[  9%] Built target realsense_camera_node_autogen
+[ 18%] [34m[1mAutomatic MOC and UIC for target qt_realsense_node[0m
+[ 54%] Built target realsense_camera_node
+[ 54%] Built target qt_realsense_node_autogen
+[ 63%] [32mBuilding CXX object CMakeFiles/qt_realsense_node.dir/src/DialogController.cpp.o[0m
+[01m[K/home/thornch/qdesign_ros2/src/DialogController.cpp:[m[K In member function ‘[01m[Kvoid DialogController::updateFrame(const cv::Mat&)[m[K’:
+[01m[K/home/thornch/qdesign_ros2/src/DialogController.cpp:121:21:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[KQPainter painter[m[K’ has initializer but incomplete type
+  121 |     QPainter painter[01;31m[K([m[K&background);
+      |                     [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/qt_realsense_node.dir/build.make:114: CMakeFiles/qt_realsense_node.dir/src/DialogController.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:159: CMakeFiles/qt_realsense_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

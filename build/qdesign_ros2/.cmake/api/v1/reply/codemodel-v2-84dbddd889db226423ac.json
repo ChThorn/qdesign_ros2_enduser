@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d8902dabab3e872af3af.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "qdesign_ros2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "qdesign_ros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qdesign_ros2_uninstall-80eff76594f0b5cd412c.json",
+					"name" : "qdesign_ros2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_realsense_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_realsense_node-e1d00c3752e1bacea4e3.json",
+					"name" : "qt_realsense_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_realsense_node_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_realsense_node_autogen-c82c1f78a2274aa7025b.json",
+					"name" : "qt_realsense_node_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_realsense_node_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_realsense_node_autogen_timestamp_deps-3a67f23a8bba196e0cf1.json",
+					"name" : "qt_realsense_node_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "realsense_camera_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-realsense_camera_node-1edad76bec7a53c4d003.json",
+					"name" : "realsense_camera_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "realsense_camera_node_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-realsense_camera_node_autogen-c605c199b1392a0716d0.json",
+					"name" : "realsense_camera_node_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "realsense_camera_node_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-realsense_camera_node_autogen_timestamp_deps-d5d9498998afbe57ff8c.json",
+					"name" : "realsense_camera_node_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3cedbf9a654bbdf8ae1e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/thornch/qdesign_ros2/build/qdesign_ros2",
+		"source" : "/home/thornch/qdesign_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

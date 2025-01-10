@@ -1,0 +1,163 @@
+[0.000000] (-) TimerEvent: {}
+[0.000264] (qdesign_ros2_enduser) JobQueued: {'identifier': 'qdesign_ros2_enduser', 'dependencies': OrderedDict()}
+[0.000698] (qdesign_ros2_enduser) JobStarted: {'identifier': 'qdesign_ros2_enduser'}
+[0.006477] (qdesign_ros2_enduser) JobProgress: {'identifier': 'qdesign_ros2_enduser', 'progress': 'cmake'}
+[0.006719] (qdesign_ros2_enduser) Command: {'cmd': ['/usr/bin/cmake', '/home/thornch/qdesign_ros2_enduser', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser'], 'cwd': '/home/thornch/qdesign_ros2_enduser/build/qdesign_ros2_enduser', 'env': OrderedDict([('LANGUAGE', 'en_US:en'), ('USER', 'thornch'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thornch'), ('OLDPWD', '/home/thornch/qdesign_ros2_enduser/desktop'), ('LESS', '-R'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/thornch/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '21168'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/thornch/qdesign_ros2/install'), ('LOGNAME', 'thornch'), ('GTK_IM_MODULE', 'ibus'), ('_P9K_SSH_TTY', '/dev/pts/5'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'thornch'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('_CE_CONDA', ''), ('WINDOWPATH', '2'), ('PATH', '/home/thornch/miniconda3/condabin:/opt/ros/humble/bin:/home/thornch/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/thornch-ubuntu:@/tmp/.ICE-unix/2104,unix/thornch-ubuntu:/tmp/.ICE-unix/2104'), ('PAPERSIZE', 'letter'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/57d9b6f8_0ed5_4422_a976_8089629239c6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/thornch/qdesign_ros2/install/qdesign_ros2:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/thornch/miniconda3/bin/python'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/thornch/qdesign_ros2_enduser/build/qdesign_ros2_enduser'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/5'), ('CONDA_EXE', '/home/thornch/miniconda3/bin/conda'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thornch/qdesign_ros2/install/qdesign_ros2:/opt/ros/humble')]), 'shell': False}
+[0.069464] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099981] (-) TimerEvent: {}
+[0.157206] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.168662] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200112] (-) TimerEvent: {}
+[0.266067] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.285930] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.286771] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.287862] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.300179] (-) TimerEvent: {}
+[0.317258] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400324] (-) TimerEvent: {}
+[0.437096] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.445949] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.446045] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.446333] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.450629] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500416] (-) TimerEvent: {}
+[0.551129] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[0.588729] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.600371] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.600418] (-) TimerEvent: {}
+[0.622030] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.624284] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.628535] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.635082] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.643856] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.667610] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.668807] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700524] (-) TimerEvent: {}
+[0.714279] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[0.729939] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[0.753766] (qdesign_ros2_enduser) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.757695] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800651] (-) TimerEvent: {}
+[0.818848] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.819545] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[0.853661] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.875334] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.889202] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Found OpenCV: /usr/local (found version "4.10.0")\n'}
+[0.900731] (-) TimerEvent: {}
+[0.925806] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Configuring done (0.9s)\n'}
+[0.954959] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.957023] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Build files have been written to: /home/thornch/qdesign_ros2_enduser/build/qdesign_ros2_enduser\n'}
+[0.963712] (qdesign_ros2_enduser) CommandEnded: {'returncode': 0}
+[0.964364] (qdesign_ros2_enduser) JobProgress: {'identifier': 'qdesign_ros2_enduser', 'progress': 'build'}
+[0.964380] (qdesign_ros2_enduser) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thornch/qdesign_ros2_enduser/build/qdesign_ros2_enduser', '--', '-j24', '-l24'], 'cwd': '/home/thornch/qdesign_ros2_enduser/build/qdesign_ros2_enduser', 'env': OrderedDict([('LANGUAGE', 'en_US:en'), ('USER', 'thornch'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thornch'), ('OLDPWD', '/home/thornch/qdesign_ros2_enduser/desktop'), ('LESS', '-R'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/thornch/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '21168'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/thornch/qdesign_ros2/install'), ('LOGNAME', 'thornch'), ('GTK_IM_MODULE', 'ibus'), ('_P9K_SSH_TTY', '/dev/pts/5'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'thornch'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('_CE_CONDA', ''), ('WINDOWPATH', '2'), ('PATH', '/home/thornch/miniconda3/condabin:/opt/ros/humble/bin:/home/thornch/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/thornch-ubuntu:@/tmp/.ICE-unix/2104,unix/thornch-ubuntu:/tmp/.ICE-unix/2104'), ('PAPERSIZE', 'letter'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/57d9b6f8_0ed5_4422_a976_8089629239c6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/thornch/qdesign_ros2/install/qdesign_ros2:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/thornch/miniconda3/bin/python'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/thornch/qdesign_ros2_enduser/build/qdesign_ros2_enduser'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/5'), ('CONDA_EXE', '/home/thornch/miniconda3/bin/conda'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thornch/qdesign_ros2/install/qdesign_ros2:/opt/ros/humble')]), 'shell': False}
+[0.991277] (qdesign_ros2_enduser) StdoutLine: {'line': b'[  0%] Built target realsense_camera_node_autogen_timestamp_deps\n'}
+[0.992109] (qdesign_ros2_enduser) StdoutLine: {'line': b'[  0%] Built target qt_realsense_node_autogen_timestamp_deps\n'}
+[1.000888] (-) TimerEvent: {}
+[1.015754] (qdesign_ros2_enduser) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target realsense_camera_node\x1b[0m\n'}
+[1.017615] (qdesign_ros2_enduser) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target qt_realsense_node\x1b[0m\n'}
+[1.066045] (qdesign_ros2_enduser) StdoutLine: {'line': b'[ 18%] Built target realsense_camera_node_autogen\n'}
+[1.088650] (qdesign_ros2_enduser) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/realsense_camera_node.dir/realsense_camera_node_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[1.088751] (qdesign_ros2_enduser) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/realsense_camera_node.dir/launch/launch_camera.cpp.o\x1b[0m\n'}
+[1.100955] (-) TimerEvent: {}
+[1.201219] (-) TimerEvent: {}
+[1.301517] (-) TimerEvent: {}
+[1.320406] (qdesign_ros2_enduser) StdoutLine: {'line': b'[ 36%] Built target qt_realsense_node_autogen\n'}
+[1.334657] (qdesign_ros2_enduser) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/qt_realsense_node.dir/qt_realsense_node_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[1.334721] (qdesign_ros2_enduser) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/qt_realsense_node.dir/src/main.cpp.o\x1b[0m\n'}
+[1.334760] (qdesign_ros2_enduser) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/qt_realsense_node.dir/src/DialogController.cpp.o\x1b[0m\n'}
+[1.401634] (-) TimerEvent: {}
+[1.501871] (-) TimerEvent: {}
+[1.602113] (-) TimerEvent: {}
+[1.702431] (-) TimerEvent: {}
+[1.802768] (-) TimerEvent: {}
+[1.902997] (-) TimerEvent: {}
+[2.003295] (-) TimerEvent: {}
+[2.103555] (-) TimerEvent: {}
+[2.203806] (-) TimerEvent: {}
+[2.304038] (-) TimerEvent: {}
+[2.404289] (-) TimerEvent: {}
+[2.504539] (-) TimerEvent: {}
+[2.604790] (-) TimerEvent: {}
+[2.705039] (-) TimerEvent: {}
+[2.805289] (-) TimerEvent: {}
+[2.905546] (-) TimerEvent: {}
+[3.005874] (-) TimerEvent: {}
+[3.106200] (-) TimerEvent: {}
+[3.206499] (-) TimerEvent: {}
+[3.306805] (-) TimerEvent: {}
+[3.407033] (-) TimerEvent: {}
+[3.507280] (-) TimerEvent: {}
+[3.607513] (-) TimerEvent: {}
+[3.651394] (qdesign_ros2_enduser) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX executable realsense_camera_node\x1b[0m\n'}
+[3.707701] (-) TimerEvent: {}
+[3.779380] (qdesign_ros2_enduser) StdoutLine: {'line': b'[ 81%] Built target realsense_camera_node\n'}
+[3.807865] (-) TimerEvent: {}
+[3.908145] (-) TimerEvent: {}
+[4.008451] (-) TimerEvent: {}
+[4.108751] (-) TimerEvent: {}
+[4.209044] (-) TimerEvent: {}
+[4.309336] (-) TimerEvent: {}
+[4.409629] (-) TimerEvent: {}
+[4.509873] (-) TimerEvent: {}
+[4.610088] (-) TimerEvent: {}
+[4.710317] (-) TimerEvent: {}
+[4.810612] (-) TimerEvent: {}
+[4.910938] (-) TimerEvent: {}
+[5.011167] (-) TimerEvent: {}
+[5.111406] (-) TimerEvent: {}
+[5.211627] (-) TimerEvent: {}
+[5.311910] (-) TimerEvent: {}
+[5.412200] (-) TimerEvent: {}
+[5.512486] (-) TimerEvent: {}
+[5.612778] (-) TimerEvent: {}
+[5.713077] (-) TimerEvent: {}
+[5.813333] (-) TimerEvent: {}
+[5.913596] (-) TimerEvent: {}
+[6.013888] (-) TimerEvent: {}
+[6.114185] (-) TimerEvent: {}
+[6.214474] (-) TimerEvent: {}
+[6.314761] (-) TimerEvent: {}
+[6.415047] (-) TimerEvent: {}
+[6.515345] (-) TimerEvent: {}
+[6.578342] (qdesign_ros2_enduser) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable qt_realsense_node\x1b[0m\n'}
+[6.615527] (-) TimerEvent: {}
+[6.715771] (-) TimerEvent: {}
+[6.816066] (-) TimerEvent: {}
+[6.916299] (-) TimerEvent: {}
+[6.989577] (qdesign_ros2_enduser) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.410\n'}
+[6.990175] (qdesign_ros2_enduser) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.410\n'}
+[7.016411] (-) TimerEvent: {}
+[7.116719] (-) TimerEvent: {}
+[7.216965] (-) TimerEvent: {}
+[7.274902] (qdesign_ros2_enduser) StdoutLine: {'line': b'[100%] Built target qt_realsense_node\n'}
+[7.284597] (qdesign_ros2_enduser) CommandEnded: {'returncode': 0}
+[7.285253] (qdesign_ros2_enduser) JobProgress: {'identifier': 'qdesign_ros2_enduser', 'progress': 'install'}
+[7.287997] (qdesign_ros2_enduser) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/thornch/qdesign_ros2_enduser/build/qdesign_ros2_enduser'], 'cwd': '/home/thornch/qdesign_ros2_enduser/build/qdesign_ros2_enduser', 'env': OrderedDict([('LANGUAGE', 'en_US:en'), ('USER', 'thornch'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thornch'), ('OLDPWD', '/home/thornch/qdesign_ros2_enduser/desktop'), ('LESS', '-R'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/thornch/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '21168'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/thornch/qdesign_ros2/install'), ('LOGNAME', 'thornch'), ('GTK_IM_MODULE', 'ibus'), ('_P9K_SSH_TTY', '/dev/pts/5'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'thornch'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('_CE_CONDA', ''), ('WINDOWPATH', '2'), ('PATH', '/home/thornch/miniconda3/condabin:/opt/ros/humble/bin:/home/thornch/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/thornch-ubuntu:@/tmp/.ICE-unix/2104,unix/thornch-ubuntu:/tmp/.ICE-unix/2104'), ('PAPERSIZE', 'letter'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/57d9b6f8_0ed5_4422_a976_8089629239c6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/thornch/qdesign_ros2/install/qdesign_ros2:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/thornch/miniconda3/bin/python'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/thornch/qdesign_ros2_enduser/build/qdesign_ros2_enduser'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/5'), ('CONDA_EXE', '/home/thornch/miniconda3/bin/conda'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thornch/qdesign_ros2/install/qdesign_ros2:/opt/ros/humble')]), 'shell': False}
+[7.291088] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.291730] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.292185] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/lib/qdesign_ros2_enduser/qt_realsense_node\n'}
+[7.296103] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/lib/qdesign_ros2_enduser/realsense_camera_node\n'}
+[7.300049] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/ament_index/resource_index/package_run_dependencies/qdesign_ros2_enduser\n'}
+[7.305163] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/ament_index/resource_index/parent_prefix_path/qdesign_ros2_enduser\n'}
+[7.313138] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/environment/ament_prefix_path.sh\n'}
+[7.317076] (-) TimerEvent: {}
+[7.320750] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/environment/ament_prefix_path.dsv\n'}
+[7.327534] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/environment/path.sh\n'}
+[7.335938] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/environment/path.dsv\n'}
+[7.345678] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/local_setup.bash\n'}
+[7.356573] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/local_setup.sh\n'}
+[7.367243] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/local_setup.zsh\n'}
+[7.377343] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/local_setup.dsv\n'}
+[7.387084] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/package.dsv\n'}
+[7.397049] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/ament_index/resource_index/packages/qdesign_ros2_enduser\n'}
+[7.407400] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/cmake/qdesign_ros2_enduserConfig.cmake\n'}
+[7.417162] (-) TimerEvent: {}
+[7.417559] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/cmake/qdesign_ros2_enduserConfig-version.cmake\n'}
+[7.427347] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/package.xml\n'}
+[7.437716] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Installing: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/launch\n'}
+[7.438059] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Installing: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/launch/include\n'}
+[7.438332] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Installing: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/launch/include/camera_node.hpp\n'}
+[7.438505] (qdesign_ros2_enduser) StdoutLine: {'line': b'-- Installing: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/launch/launch_camera.cpp\n'}
+[7.441697] (qdesign_ros2_enduser) CommandEnded: {'returncode': 0}
+[7.461703] (qdesign_ros2_enduser) JobEnded: {'identifier': 'qdesign_ros2_enduser', 'rc': 0}
+[7.461998] (-) EventReactorShutdown: {}

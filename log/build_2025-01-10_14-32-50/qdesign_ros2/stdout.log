@@ -1,0 +1,7 @@
+[  0%] Built target qt_realsense_node_autogen_timestamp_deps
+[  0%] Built target realsense_camera_node_autogen_timestamp_deps
+[  9%] Built target qt_realsense_node_autogen
+[ 18%] Built target realsense_camera_node_autogen
+[ 63%] Built target qt_realsense_node
+[ 72%] [32mBuilding CXX object CMakeFiles/realsense_camera_node.dir/launch/launch_camera.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable realsense_camera_node[0m

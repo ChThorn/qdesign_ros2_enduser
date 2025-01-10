@@ -1,0 +1,54 @@
+[0.006s] Invoking command in '/home/thornch/qdesign_ros2/build/qdesign_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/thornch/qdesign_ros2/build/qdesign_ros2 -- -j24 -l24
+[0.020s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.151s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.155s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.171s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.173s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.176s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.181s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.188s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.208s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.208s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.267s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.300s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.320s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.369s] -- Configuring done (0.4s)
+[0.392s] -- Generating done (0.0s)
+[0.394s] -- Build files have been written to: /home/thornch/qdesign_ros2/build/qdesign_ros2
+[0.409s] [  0%] Built target qt_realsense_node_autogen_timestamp_deps
+[0.410s] [  0%] Built target realsense_camera_node_autogen_timestamp_deps
+[0.423s] [  9%] [34m[1mAutomatic MOC and UIC for target realsense_camera_node[0m
+[0.429s] [ 18%] [34m[1mAutomatic MOC and UIC for target qt_realsense_node[0m
+[0.448s] [ 18%] Built target realsense_camera_node_autogen
+[0.450s] [ 18%] Built target qt_realsense_node_autogen
+[0.479s] [ 27%] [32mBuilding CXX object CMakeFiles/realsense_camera_node.dir/realsense_camera_node_autogen/mocs_compilation.cpp.o[0m
+[0.480s] [ 36%] [32mBuilding CXX object CMakeFiles/realsense_camera_node.dir/launch/launch_camera.cpp.o[0m
+[0.489s] [ 81%] Built target qt_realsense_node
+[2.812s] [ 90%] [32m[1mLinking CXX executable realsense_camera_node[0m
+[2.940s] [100%] Built target realsense_camera_node
+[2.950s] Invoked command in '/home/thornch/qdesign_ros2/build/qdesign_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/thornch/qdesign_ros2/build/qdesign_ros2 -- -j24 -l24
+[2.953s] Invoking command in '/home/thornch/qdesign_ros2/build/qdesign_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/thornch/qdesign_ros2/build/qdesign_ros2
+[2.956s] -- Install configuration: ""
+[2.956s] -- Execute custom install script
+[2.957s] -- Symlinking: /home/thornch/qdesign_ros2/install/qdesign_ros2/lib/qdesign_ros2/qt_realsense_node
+[2.961s] -- Symlinking: /home/thornch/qdesign_ros2/install/qdesign_ros2/lib/qdesign_ros2/realsense_camera_node
+[2.967s] -- Symlinking: /home/thornch/qdesign_ros2/install/qdesign_ros2/share/ament_index/resource_index/package_run_dependencies/qdesign_ros2
+[2.974s] -- Symlinking: /home/thornch/qdesign_ros2/install/qdesign_ros2/share/ament_index/resource_index/parent_prefix_path/qdesign_ros2
+[2.979s] -- Symlinking: /home/thornch/qdesign_ros2/install/qdesign_ros2/share/qdesign_ros2/environment/ament_prefix_path.sh
+[2.988s] -- Symlinking: /home/thornch/qdesign_ros2/install/qdesign_ros2/share/qdesign_ros2/environment/ament_prefix_path.dsv
+[2.994s] -- Symlinking: /home/thornch/qdesign_ros2/install/qdesign_ros2/share/qdesign_ros2/environment/path.sh
+[3.002s] -- Symlinking: /home/thornch/qdesign_ros2/install/qdesign_ros2/share/qdesign_ros2/environment/path.dsv
+[3.012s] -- Symlinking: /home/thornch/qdesign_ros2/install/qdesign_ros2/share/qdesign_ros2/local_setup.bash
+[3.019s] -- Symlinking: /home/thornch/qdesign_ros2/install/qdesign_ros2/share/qdesign_ros2/local_setup.sh
+[3.030s] -- Symlinking: /home/thornch/qdesign_ros2/install/qdesign_ros2/share/qdesign_ros2/local_setup.zsh
+[3.040s] -- Symlinking: /home/thornch/qdesign_ros2/install/qdesign_ros2/share/qdesign_ros2/local_setup.dsv
+[3.050s] -- Symlinking: /home/thornch/qdesign_ros2/install/qdesign_ros2/share/qdesign_ros2/package.dsv
+[3.057s] -- Symlinking: /home/thornch/qdesign_ros2/install/qdesign_ros2/share/ament_index/resource_index/packages/qdesign_ros2
+[3.060s] -- Symlinking: /home/thornch/qdesign_ros2/install/qdesign_ros2/share/qdesign_ros2/cmake/qdesign_ros2Config.cmake
+[3.063s] -- Symlinking: /home/thornch/qdesign_ros2/install/qdesign_ros2/share/qdesign_ros2/cmake/qdesign_ros2Config-version.cmake
+[3.068s] -- Symlinking: /home/thornch/qdesign_ros2/install/qdesign_ros2/share/qdesign_ros2/package.xml
+[3.073s] -- Installing: /home/thornch/qdesign_ros2/install/qdesign_ros2/share/qdesign_ros2/launch
+[3.073s] -- Installing: /home/thornch/qdesign_ros2/install/qdesign_ros2/share/qdesign_ros2/launch/include
+[3.073s] -- Installing: /home/thornch/qdesign_ros2/install/qdesign_ros2/share/qdesign_ros2/launch/include/camera_node.hpp
+[3.073s] -- Installing: /home/thornch/qdesign_ros2/install/qdesign_ros2/share/qdesign_ros2/launch/launch_camera.cpp
+[3.077s] Invoked command in '/home/thornch/qdesign_ros2/build/qdesign_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/thornch/qdesign_ros2/build/qdesign_ros2

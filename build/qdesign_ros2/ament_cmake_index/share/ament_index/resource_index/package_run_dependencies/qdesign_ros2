@@ -1,0 +1,1 @@
+rclcpp;sensor_msgs;cv_bridge;qtbase5-dev;libopencv-dev;librealsense2-dev;librealsense2;ament_lint_auto;ament_lint_common

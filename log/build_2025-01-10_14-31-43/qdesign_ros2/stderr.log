@@ -1,0 +1,20 @@
+In file included from [01m[K/home/thornch/qdesign_ros2/launch/launch_camera.cpp:2[m[K:
+[01m[K/home/thornch/qdesign_ros2/launch/include/camera_node.hpp:[m[K In member function ‘[01m[Kvoid realsense_launch::CameraNode::publish_frame(const rs2::frame&, const SharedPtr&, const string&)[m[K’:
+[01m[K/home/thornch/qdesign_ros2/launch/include/camera_node.hpp:81:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class rs2::frame[m[K’ has no member named ‘[01m[Kget_height[m[K’
+   81 |         msg->height = frame.[01;31m[Kget_height[m[K();
+      |                             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/thornch/qdesign_ros2/launch/include/camera_node.hpp:82:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class rs2::frame[m[K’ has no member named ‘[01m[Kget_width[m[K’
+   82 |         msg->width = frame.[01;31m[Kget_width[m[K();
+      |                            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/thornch/qdesign_ros2/launch/include/camera_node.hpp:85:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class rs2::frame[m[K’ has no member named ‘[01m[Kget_stride_in_bytes[m[K’
+   85 |         msg->step = frame.[01;31m[Kget_stride_in_bytes[m[K();
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thornch/qdesign_ros2/launch/include/camera_node.hpp:87:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class rs2::frame[m[K’ has no member named ‘[01m[Kget_stride_in_bytes[m[K’
+   87 |         const size_t data_size = frame.[01;31m[Kget_stride_in_bytes[m[K() * frame.get_height();
+      |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thornch/qdesign_ros2/launch/include/camera_node.hpp:87:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class rs2::frame[m[K’ has no member named ‘[01m[Kget_height[m[K’
+   87 |         const size_t data_size = frame.get_stride_in_bytes() * frame.[01;31m[Kget_height[m[K();
+      |                                                                      [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/realsense_camera_node.dir/build.make:100: CMakeFiles/realsense_camera_node.dir/launch/launch_camera.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:191: CMakeFiles/realsense_camera_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

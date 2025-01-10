@@ -1,0 +1,2 @@
+/home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/launch/include/camera_node.hpp
+/home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/launch/launch_camera.cpp

@@ -1,0 +1,4 @@
+Invoking command in '/home/thornch/qdesign_ros2/build/qdesign_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/thornch/qdesign_ros2 -DCMAKE_INSTALL_PREFIX=/home/thornch/qdesign_ros2/install/qdesign_ros2
+Invoked command in '/home/thornch/qdesign_ros2/build/qdesign_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/thornch/qdesign_ros2 -DCMAKE_INSTALL_PREFIX=/home/thornch/qdesign_ros2/install/qdesign_ros2
+Invoking command in '/home/thornch/qdesign_ros2/build/qdesign_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/thornch/qdesign_ros2/build/qdesign_ros2 -- -j24 -l24
+Invoked command in '/home/thornch/qdesign_ros2/build/qdesign_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/thornch/qdesign_ros2/build/qdesign_ros2 -- -j24 -l24

@@ -1,0 +1,75 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+-- Found FastRTPS: /opt/ros/humble/include
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found OpenCV: /usr/local (found version "4.10.0")
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/thornch/qdesign_ros2_enduser/build/qdesign_ros2_enduser
+[  0%] Built target realsense_camera_node_autogen_timestamp_deps
+[  0%] Built target qt_realsense_node_autogen_timestamp_deps
+[  9%] [34m[1mAutomatic MOC and UIC for target realsense_camera_node[0m
+[ 18%] [34m[1mAutomatic MOC and UIC for target qt_realsense_node[0m
+[ 18%] Built target realsense_camera_node_autogen
+[ 27%] [32mBuilding CXX object CMakeFiles/realsense_camera_node.dir/realsense_camera_node_autogen/mocs_compilation.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/realsense_camera_node.dir/launch/launch_camera.cpp.o[0m
+[ 36%] Built target qt_realsense_node_autogen
+[ 45%] [32mBuilding CXX object CMakeFiles/qt_realsense_node.dir/qt_realsense_node_autogen/mocs_compilation.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/qt_realsense_node.dir/src/main.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/qt_realsense_node.dir/src/DialogController.cpp.o[0m
+[ 72%] [32m[1mLinking CXX executable realsense_camera_node[0m
+[ 81%] Built target realsense_camera_node
+[ 90%] [32m[1mLinking CXX executable qt_realsense_node[0m
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.410
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.410
+[100%] Built target qt_realsense_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/lib/qdesign_ros2_enduser/qt_realsense_node
+-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/lib/qdesign_ros2_enduser/realsense_camera_node
+-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/ament_index/resource_index/package_run_dependencies/qdesign_ros2_enduser
+-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/ament_index/resource_index/parent_prefix_path/qdesign_ros2_enduser
+-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/environment/ament_prefix_path.sh
+-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/environment/ament_prefix_path.dsv
+-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/environment/path.sh
+-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/environment/path.dsv
+-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/local_setup.bash
+-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/local_setup.sh
+-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/local_setup.zsh
+-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/local_setup.dsv
+-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/package.dsv
+-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/ament_index/resource_index/packages/qdesign_ros2_enduser
+-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/cmake/qdesign_ros2_enduserConfig.cmake
+-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/cmake/qdesign_ros2_enduserConfig-version.cmake
+-- Symlinking: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/package.xml
+-- Installing: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/launch
+-- Installing: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/launch/include
+-- Installing: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/launch/include/camera_node.hpp
+-- Installing: /home/thornch/qdesign_ros2_enduser/install/qdesign_ros2_enduser/share/qdesign_ros2_enduser/launch/launch_camera.cpp

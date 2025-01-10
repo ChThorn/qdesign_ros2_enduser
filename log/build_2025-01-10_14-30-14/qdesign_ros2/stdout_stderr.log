@@ -1,0 +1,22 @@
+[  0%] Built target realsense_camera_node_autogen_timestamp_deps
+[  0%] Built target qt_realsense_node_autogen_timestamp_deps
+[  9%] [34m[1mAutomatic MOC and UIC for target realsense_camera_node[0m
+[  9%] Built target realsense_camera_node_autogen
+[ 18%] Built target qt_realsense_node_autogen
+[ 27%] [32mBuilding CXX object CMakeFiles/realsense_camera_node.dir/launch/launch_camera.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/qt_realsense_node.dir/qt_realsense_node_autogen/mocs_compilation.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/qt_realsense_node.dir/src/main.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/qt_realsense_node.dir/src/DialogController.cpp.o[0m
+In file included from [01m[K/home/thornch/qdesign_ros2/launch/launch_camera.cpp:2[m[K:
+[01m[K/home/thornch/qdesign_ros2/launch/include/camera_node.hpp:4:10:[m[K [01;31m[Kfatal error: [m[Krs2_camera.hpp: No such file or directory
+    4 | #include [01;31m[K"rs2_camera.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/realsense_camera_node.dir/build.make:100: CMakeFiles/realsense_camera_node.dir/launch/launch_camera.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:191: CMakeFiles/realsense_camera_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 63%] [32m[1mLinking CXX executable qt_realsense_node[0m
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.410
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.410
+[ 72%] Built target qt_realsense_node
+gmake: *** [Makefile:146: all] Error 2

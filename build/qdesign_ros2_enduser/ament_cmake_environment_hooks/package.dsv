@@ -1,0 +1,4 @@
+source;share/qdesign_ros2_enduser/local_setup.bash
+source;share/qdesign_ros2_enduser/local_setup.dsv
+source;share/qdesign_ros2_enduser/local_setup.sh
+source;share/qdesign_ros2_enduser/local_setup.zsh

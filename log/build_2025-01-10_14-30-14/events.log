@@ -1,0 +1,91 @@
+[0.000000] (-) TimerEvent: {}
+[0.000367] (qdesign_ros2) JobQueued: {'identifier': 'qdesign_ros2', 'dependencies': OrderedDict()}
+[0.000396] (qdesign_ros2) JobStarted: {'identifier': 'qdesign_ros2'}
+[0.004171] (qdesign_ros2) JobProgress: {'identifier': 'qdesign_ros2', 'progress': 'cmake'}
+[0.004433] (qdesign_ros2) JobProgress: {'identifier': 'qdesign_ros2', 'progress': 'build'}
+[0.004810] (qdesign_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thornch/qdesign_ros2/build/qdesign_ros2', '--', '-j24', '-l24'], 'cwd': '/home/thornch/qdesign_ros2/build/qdesign_ros2', 'env': OrderedDict([('LANGUAGE', 'en_US:en'), ('USER', 'thornch'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thornch'), ('OLDPWD', '/home/thornch'), ('LESS', '-R'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/thornch/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '21168'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/thornch/qdesign_ros2/src/install:/home/thornch/qdesign_ros2/install'), ('LOGNAME', 'thornch'), ('GTK_IM_MODULE', 'ibus'), ('_P9K_SSH_TTY', '/dev/pts/6'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'thornch'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('_CE_CONDA', ''), ('WINDOWPATH', '2'), ('PATH', '/home/thornch/miniconda3/condabin:/opt/ros/humble/bin:/home/thornch/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/thornch-ubuntu:@/tmp/.ICE-unix/2104,unix/thornch-ubuntu:/tmp/.ICE-unix/2104'), ('PAPERSIZE', 'letter'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7c11ba03_5fb7_4fde_916e_e14717e31624'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/thornch/qdesign_ros2/install/camera_viewer:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/thornch/miniconda3/bin/python'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/thornch/qdesign_ros2/build/qdesign_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/6'), ('CONDA_EXE', '/home/thornch/miniconda3/bin/conda'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thornch/qdesign_ros2/install/camera_viewer:/opt/ros/humble')]), 'shell': False}
+[0.026441] (qdesign_ros2) StdoutLine: {'line': b'[  0%] Built target realsense_camera_node_autogen_timestamp_deps\n'}
+[0.026748] (qdesign_ros2) StdoutLine: {'line': b'[  0%] Built target qt_realsense_node_autogen_timestamp_deps\n'}
+[0.058454] (qdesign_ros2) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target realsense_camera_node\x1b[0m\n'}
+[0.074052] (qdesign_ros2) StdoutLine: {'line': b'[  9%] Built target realsense_camera_node_autogen\n'}
+[0.078494] (qdesign_ros2) StdoutLine: {'line': b'[ 18%] Built target qt_realsense_node_autogen\n'}
+[0.099085] (qdesign_ros2) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/realsense_camera_node.dir/launch/launch_camera.cpp.o\x1b[0m\n'}
+[0.099719] (-) TimerEvent: {}
+[0.115146] (qdesign_ros2) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/qt_realsense_node.dir/qt_realsense_node_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[0.115976] (qdesign_ros2) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/qt_realsense_node.dir/src/main.cpp.o\x1b[0m\n'}
+[0.116238] (qdesign_ros2) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/qt_realsense_node.dir/src/DialogController.cpp.o\x1b[0m\n'}
+[0.199857] (-) TimerEvent: {}
+[0.206864] (qdesign_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/thornch/qdesign_ros2/launch/launch_camera.cpp:2\x1b[m\x1b[K:\n'}
+[0.207056] (qdesign_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thornch/qdesign_ros2/launch/include/camera_node.hpp:4:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krs2_camera.hpp: No such file or directory\n'}
+[0.207143] (qdesign_ros2) StderrLine: {'line': b'    4 | #include \x1b[01;31m\x1b[K"rs2_camera.hpp"\x1b[m\x1b[K\n'}
+[0.207175] (qdesign_ros2) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.207198] (qdesign_ros2) StderrLine: {'line': b'compilation terminated.\n'}
+[0.209390] (qdesign_ros2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/realsense_camera_node.dir/build.make:100: CMakeFiles/realsense_camera_node.dir/launch/launch_camera.cpp.o] Error 1\n'}
+[0.209634] (qdesign_ros2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:191: CMakeFiles/realsense_camera_node.dir/all] Error 2\n'}
+[0.209660] (qdesign_ros2) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[0.299960] (-) TimerEvent: {}
+[0.400259] (-) TimerEvent: {}
+[0.500516] (-) TimerEvent: {}
+[0.600759] (-) TimerEvent: {}
+[0.701068] (-) TimerEvent: {}
+[0.801392] (-) TimerEvent: {}
+[0.901702] (-) TimerEvent: {}
+[1.002016] (-) TimerEvent: {}
+[1.102329] (-) TimerEvent: {}
+[1.202636] (-) TimerEvent: {}
+[1.302952] (-) TimerEvent: {}
+[1.403205] (-) TimerEvent: {}
+[1.503514] (-) TimerEvent: {}
+[1.603753] (-) TimerEvent: {}
+[1.703978] (-) TimerEvent: {}
+[1.804304] (-) TimerEvent: {}
+[1.904619] (-) TimerEvent: {}
+[2.004954] (-) TimerEvent: {}
+[2.105313] (-) TimerEvent: {}
+[2.205580] (-) TimerEvent: {}
+[2.305899] (-) TimerEvent: {}
+[2.406196] (-) TimerEvent: {}
+[2.506486] (-) TimerEvent: {}
+[2.606776] (-) TimerEvent: {}
+[2.707074] (-) TimerEvent: {}
+[2.807424] (-) TimerEvent: {}
+[2.907661] (-) TimerEvent: {}
+[3.007892] (-) TimerEvent: {}
+[3.108225] (-) TimerEvent: {}
+[3.208432] (-) TimerEvent: {}
+[3.308732] (-) TimerEvent: {}
+[3.409038] (-) TimerEvent: {}
+[3.509350] (-) TimerEvent: {}
+[3.609582] (-) TimerEvent: {}
+[3.709790] (-) TimerEvent: {}
+[3.810082] (-) TimerEvent: {}
+[3.910367] (-) TimerEvent: {}
+[4.010575] (-) TimerEvent: {}
+[4.110808] (-) TimerEvent: {}
+[4.211033] (-) TimerEvent: {}
+[4.311209] (-) TimerEvent: {}
+[4.411416] (-) TimerEvent: {}
+[4.511619] (-) TimerEvent: {}
+[4.611821] (-) TimerEvent: {}
+[4.712034] (-) TimerEvent: {}
+[4.812191] (-) TimerEvent: {}
+[4.912380] (-) TimerEvent: {}
+[5.012587] (-) TimerEvent: {}
+[5.112824] (-) TimerEvent: {}
+[5.213062] (-) TimerEvent: {}
+[5.313267] (-) TimerEvent: {}
+[5.319922] (qdesign_ros2) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX executable qt_realsense_node\x1b[0m\n'}
+[5.413435] (-) TimerEvent: {}
+[5.513662] (-) TimerEvent: {}
+[5.613899] (-) TimerEvent: {}
+[5.714160] (-) TimerEvent: {}
+[5.735347] (qdesign_ros2) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.410\n'}
+[5.735868] (qdesign_ros2) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.410\n'}
+[5.814244] (-) TimerEvent: {}
+[5.914507] (-) TimerEvent: {}
+[6.014782] (-) TimerEvent: {}
+[6.021542] (qdesign_ros2) StdoutLine: {'line': b'[ 72%] Built target qt_realsense_node\n'}
+[6.022018] (qdesign_ros2) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.023823] (qdesign_ros2) CommandEnded: {'returncode': 2}
+[6.028582] (qdesign_ros2) JobEnded: {'identifier': 'qdesign_ros2', 'rc': 2}
+[6.039022] (-) EventReactorShutdown: {}
